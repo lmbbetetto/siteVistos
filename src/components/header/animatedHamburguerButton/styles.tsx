@@ -18,7 +18,7 @@ export const Container = styled.div`
   }
   .line {
     fill: none;
-    stroke: black;
+    stroke: white;
     stroke-width: 6px;
     stroke-linecap: round;
     stroke-linejoin: round;

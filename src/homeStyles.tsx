@@ -9,7 +9,7 @@ export const Container = styled.div`
     .sidenav {
       top: 75px;
       position: fixed;
-      width: 90%;
+      width: 100%;
       height: 100vh;
       background: var(--white);
       transform: translateX(-110%);
@@ -35,6 +35,7 @@ export const Container = styled.div`
       position: fixed;
       width: 100%;
       height: 100%;
+      margin: 0;
     }
   }
 
@@ -45,10 +46,6 @@ export const Container = styled.div`
 
     .main_mobile {
       position: fixed;
-      top: 0;
-      left: 0;
-      right: 0;
-      z-index: 999;
       width: 100%;
       max-height: 75px;
       height: 100%;
