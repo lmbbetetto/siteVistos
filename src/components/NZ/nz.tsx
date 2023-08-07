@@ -4,6 +4,7 @@ import style from './style.module.css'
 import { BsBagFill } from 'react-icons/bs'
 import { BsBookHalf } from 'react-icons/bs'
 import { FaMapMarked } from 'react-icons/fa'
+import { Link } from 'react-router-dom'
 
 export function NovaZelandia() {
     const CardsNZ = [
@@ -46,7 +47,7 @@ export function NovaZelandia() {
                     </div>
 
                     <h2>Contate-nos</h2>
-                    <button className={style.btn}>Contato</button>
+                    <Link to='/contato'><button className={style.btn}>Contato</button></Link>
                 </div>
             </div>
         </>
