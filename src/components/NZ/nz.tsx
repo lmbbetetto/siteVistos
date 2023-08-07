@@ -11,24 +11,24 @@ export function NovaZelandia() {
         {
             icon: <FaMapMarked />,
             name: 'Turista',
-            content: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+            content: 'É a permissão temporária para fins turísticos, sem trabalho ou estudo. Requisitos variam de acordo com o país.',
         },
         {
             icon: <BsBookHalf />,
             name: 'Estudante',
-            content: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+            content: 'É a permissão para estudantes estrangeiros estudarem em outro país.',
         },
         {
             icon: <BsBagFill />,
             name: 'Trabalho',
-            content: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+            content: 'É a autorização para estrangeiros trabalharem legalmente em outro país com base em oferta de emprego.',
         },
     ]
     return (
         <>
             <div className={style.cover}>
                 <h1>Nova Zelândia</h1>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                <p>Terra de beleza natural, cultura maori e aventuras emocionantes. Montanhas, praias e fiordes encantadores. Conecte-se com a rica história e gastronomia local. Viva momentos únicos observando a vida selvagem.</p>
             </div>
 
             <div className={style.container}>
