@@ -80,3 +80,8 @@
   .mobile_1 a:hover {
     color: var(--black);
   }
+
+  .hamburguer {
+    background: none;
+    border: none;
+  }
