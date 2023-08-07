@@ -5,6 +5,9 @@ import { useState } from 'react'
 
 import LOGO from '../../assets/logo.png'
 
+import { BiLogoInstagramAlt } from 'react-icons/bi'
+import { FaFacebookSquare } from 'react-icons/fa'
+
 export function Header() {
 
     const [active, setActive] = useState(false)
@@ -43,11 +46,17 @@ export function Header() {
                     <div className={active ? "activeSidenav" : "sidenav"}>
                         <div className="container_mobile container-header">
                             <div className="mobile_1" onClick={scrollToTop}>
-                                <Link to="/"><a>Início</a></Link>
-                                <Link to="/novazelandia"><a>Nova Zelândia</a></Link>
-                                <Link to="/australia"><a>Austrália</a></Link>
-                                <Link to="/sobre"><a>Sobre</a></Link>
-                                <Link to="/contato"><a>Contato</a></Link>
+                                <Link to="/"><a onClick={() => {setActive(!active)}}>Início</a></Link>
+                                <Link to="/novazelandia"><a onClick={() => {setActive(!active)}}>Nova Zelândia</a></Link>
+                                <Link to="/australia"><a onClick={() => {setActive(!active)}}>Austrália</a></Link>
+                                <Link to="/sobre"><a onClick={() => {setActive(!active)}}>Sobre</a></Link>
+                                <div className='linha'>
+                                    <Link to="/contato"><a onClick={() => {setActive(!active)}}>Contato</a></Link>
+                                </div>
+                                <div className='socials'>
+                                    <a href="/" target="_blank"><BiLogoInstagramAlt size={36} /></a>
+                                    <a href="/" target="_blank"><FaFacebookSquare /></a>
+                                </div>
                             </div>
                         </div>
                     </div>
