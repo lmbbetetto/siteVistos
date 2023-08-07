@@ -8,10 +8,12 @@ const Cards = [
     {
         img: Australia,
         name: 'Australia',
+        link: '/australia',
     },
     {
         img: NZ,
         name: 'Nova Zelândia',
+        link: '/novazelandia',
     },
 ]
 
@@ -27,6 +29,7 @@ export function Home() {
                             key={index}
                             img={component.img}
                             name={component.name}
+                            link={component.link}
                         />
                     ))
                 }
