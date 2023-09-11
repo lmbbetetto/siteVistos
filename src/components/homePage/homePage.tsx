@@ -3,6 +3,7 @@ import style from './style.module.css'
 
 import Australia from '../../assets/bandeiraAustralia.png'
 import NZ from '../../assets/bandeiraNZ.png'
+import { useEffect } from 'react'
 
 const Cards = [
     {
@@ -18,6 +19,10 @@ const Cards = [
 ]
 
 export function Home() {
+    useEffect(() => {
+        document.title = 'Home - N&D Vistos'
+    })
+
     return (
         <>
             <div className={style.cover}></div>

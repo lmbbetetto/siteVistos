@@ -107,6 +107,10 @@
     margin-top: 0.03rem;
 }
 
+.icons a {
+    color: var(--white);
+}
+
 @media (max-width: 720px) {
     .container {
         flex-direction: column;

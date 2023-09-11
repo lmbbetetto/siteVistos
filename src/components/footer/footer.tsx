@@ -5,7 +5,6 @@ import { useEffect } from 'react';
 
 import LOGO from '../../assets/logo.png'
 
-import { BiLogoInstagramAlt } from 'react-icons/bi'
 import { FaFacebookSquare } from 'react-icons/fa'
 
 export function Footer() {
@@ -21,7 +20,7 @@ export function Footer() {
             <footer className={style.container}>
                 <div className={style.about}>
                     <img src={LOGO} alt="logo" />
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since</p>
+                    <p>Nossa missão é simplificar e agilizar o processo de obtenção de vistos, tornando as viagens internacionais acessíveis e livres de complicações.</p>
                 </div>
 
                 <div className={style.nav}>
@@ -37,11 +36,11 @@ export function Footer() {
 
                 <div className={style.contact}>
                     <h1>Contato</h1>
-                    <p>Rua nome da rua, 999</p>
-                    <p>(18) 99999-9999</p>
+                    <p>217 Commonwealth, St Surry Hills, Sydney NSW - Austrália</p>
+                    <p>+55 43 99174-3584</p>
+                    <p>+61 451 066 072</p>
                     <div className={style.icons}>
-                        <BiLogoInstagramAlt />
-                        <FaFacebookSquare size={40} />
+                        <a href="https://www.facebook.com/people/ND-Vistos/100090691496608/?mibextid=ZbWKwL" target='_blank'><FaFacebookSquare size={40} /></a>
                     </div>
                 </div>
             </footer>

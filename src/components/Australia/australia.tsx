@@ -1,3 +1,4 @@
+import { useEffect } from 'react'
 import { CardAus } from './card/card'
 import style from './style.module.css'
 
@@ -7,6 +8,10 @@ import { FaMapMarked } from 'react-icons/fa'
 import { Link } from 'react-router-dom'
 
 export function Australia() {
+    useEffect(() => {
+        document.title = 'Austrália - N&D Vistos'
+    })
+
     const cards = [
         {
             icon: <FaMapMarked />,
