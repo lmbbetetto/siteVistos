@@ -38,6 +38,7 @@ export function Australia() {
 
             <div className={style.container}>
                 <div className={style.card}>
+                    <div className={style.canguru}></div>
                     <div className={style.cards}>
                         {
                             cards.map((component, index) => (
