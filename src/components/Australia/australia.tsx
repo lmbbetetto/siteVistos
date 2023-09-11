@@ -38,11 +38,10 @@ export function Australia() {
 
             <div className={style.container}>
                 <div className={style.card}>
-                    <div className={style.canguru}></div>
                     <div className={style.cards}>
                         {
                             cards.map((component, index) => (
-                                <CardAus 
+                                <CardAus
                                     key={index}
                                     icon={component.icon}
                                     name={component.name}
@@ -55,6 +54,7 @@ export function Australia() {
                     <h2>Contate-nos</h2>
                     <Link to='/contato'><button className={style.btn}>Contato</button></Link>
                 </div>
+                <div className={style.canguru}></div>
             </div>
         </>
     )
