@@ -107,8 +107,9 @@
 
 @media (max-width: 720px) {
     .cover {
-        background-size: 395%;
+        background-size: 320%;
         padding: 0;
+        background-position: -33.2rem 4rem;
     }
 
     .cover h1 {
