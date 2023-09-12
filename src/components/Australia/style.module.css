@@ -120,6 +120,8 @@
     .cover p {
         max-width: 20rem;
         font-size: 0.9rem;
+        margin-bottom: 2rem;
+        margin-top: -1.5rem;
     }
 
     .container {
