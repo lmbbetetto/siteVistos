@@ -113,6 +113,11 @@
     }
 
     .card {
+        margin: 2rem auto 4rem auto;
+        width: 21.5rem;
+    }
+
+    .cardNZ {
         margin: -4rem auto 4rem auto;
         width: 21.5rem;
     }
