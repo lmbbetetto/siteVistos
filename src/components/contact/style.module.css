@@ -1,5 +1,5 @@
 .cover {
-    background: url(../../assets/coverContact.png) no-repeat center;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../assets/coverContact.png) no-repeat center;
     background-size: 100%;
 
     width: 100%;
