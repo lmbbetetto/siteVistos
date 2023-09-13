@@ -43,7 +43,9 @@
     width: 21.375rem;
     height: 27.0625rem;
     border-radius: 1.875rem;
-    background: var(--light-blue);
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../assets/kiwi.jpg);
+    background-position: -15rem 70%;
+    background-size: 230%;
 
     padding: 3.6rem 4rem;
     color: var(--white);
